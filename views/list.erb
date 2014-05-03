@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+
+    <title>Hotel Ateneo</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../public/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../public/css/cover.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <h3 class="masthead-brand">Hotel Ateneo</h3>
+              <ul class="nav masthead-nav">
+                <li><a href="./index.erb">Home</a></li>
+                <li><a href="./about.erb">About</a></li>
+                <li class="active"><a href="./list.erb">Room List</a></li>
+		<li><a href="./reserve.erb">Reserve Today!</a></li>
+              </ul>
+            </div>
+          </div>
+	  <br/>
+	  <br/>
+          <br/>
+          <br/>
+          <div class="inner cover">
+            <h1 class="cover-heading">List of Rooms</h1>
+            <p class="lead">What fits you?</p>
+
+<!-- Basic Table -->
+        <table class="table">
+          <thead>
+            <td>Room Type</td>
+            <td>Bedroom Details</td>
+            <td>Miscellaneous Details</td>
+            <td>Price</td>
+          </thead>
+          <tr>
+            <td>SOSE Nerd Room</td>
+            <td>1 single-sized bed </br> </td>
+            <td>1 bathroom, kitchen,</br>airconditioning,</br> Broadband connection ('cause that's all we need)</td>
+            <td>Php8,500/night</td>
+          </tr>
+          <tr>
+            <td>SOM "Future Executive" Suite</td>
+            <td>Queen-sized bed ('living large!)</td>
+            <td>1 bathroom, conference room</br>airconditioning,</br> cable TV & DVD player</br>wi-fi, </td>
+            <td>Php26,000/night</td>
+          </tr>
+		  <tr>
+            <td>SOH "Artist's Studio"</td>
+            <td>1 cot</br></td>
+            <td>hall bathroom, no kitchen,</br></br>electric fan</br> typewriter</br>wi-fi, </td>
+            <td>Php7,500/night</td>
+          </tr>
+            <tr>
+            <td>SOSS "For all the rest"</td>
+            <td>2 double beds</br></td>
+            <td>1 bathroom, half kitchen,</br></br>open window</br>telephone/land-line</br>unreliable wi-fi, </td>
+            <td>Php3,500/night</td>
+          </tr>
+        </table>
+          </div>
+
+          <div class="mastfoot">
+            <div class="inner">
+              <p>Cover template for <a href="http://getbootstrap.com">Bootstrap</a>, by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="../public/dist/js/bootstrap.min.js"></script>
+    <script src="../public/assets/js/docs.min.js"></script>
+  </body>
+</html>
