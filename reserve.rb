@@ -1,4 +1,4 @@
-class Reserve
+class Reservation
  def initialize(firstName, lastName, email, creditcardNum, startDate, endDate, roomType)
 	@firstName = lastName
 	@lastName = firstName
@@ -17,6 +17,7 @@ class Reserve
 	<b>E-mail: </b>#{@email}
 	<br/>
 	<b>Card Number: </b>#{@creditcardNum}
+	<br/>
 	<b>Reservation Period: </b>#{@startDate} to #{@endDate}
 	<br/>
 	<b>Room Class: </b>#{@roomType}"

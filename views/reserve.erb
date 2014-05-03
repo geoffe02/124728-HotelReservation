@@ -6,18 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="shortcut icon" href="./assets/ico/favicon.ico">
+    <link rel="shortcut icon" href="ico/favicon.ico">
 
     <title>Hotel Ateneo</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../public/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="../public/css/cover.css" rel="stylesheet">
+    <link href="css/cover.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy this line! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -49,12 +49,6 @@
           <div class="inner cover">
             <h1 class="cover-heading">Reserve your room.</h1>
             <p class="lead">Reserve list.</p>
-			<select>
-				<option>SOSE Nerd Room</option>
-				<option>SOM "Future Executive" Suite</option>
-				<option>SOH Artistic Types studio</option>
-				<option>SOSS Variety Room</option>
-			</select>
 			
 	        <form method="POST" action="./confirmation" role="form">
 		<div class="form-group">
@@ -69,7 +63,7 @@
 	        <!-- group labels and inputs together using a form-group div -->
 	        <div class="form-group">
 	              	<label for="email">Email address</label>
-	              	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+	              	<input type="email" class="form-control" name="email" placeholder="Enter email">
 	        </div>
 		<label for="firstName">First Name</label>
               		<input type="text" class="form-control" name="firstName" placeholder="Enter first name">
@@ -109,7 +103,7 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="../public/dist/js/bootstrap.min.js"></script>
-    <script src="../public/assets/js/docs.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/docs.min.js"></script>
   </body>
 </html>

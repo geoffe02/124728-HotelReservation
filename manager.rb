@@ -22,6 +22,6 @@ get '/reserve.erb' do
 end
 
 post '/confirmation' do
- @reserve = reserve.new params[:lastName], params[:firstName], params[:email], params[:creditcardNum], params[:startDate], params[:endDate], params[:roomType]
+ @reserve = Reservation.new params[:lastName], params[:firstName], params[:email], params[:creditcardNum], params[:startDate], params[:endDate], params[:roomType]
  erb :confirmation
 end
